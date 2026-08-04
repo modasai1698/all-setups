@@ -1,4 +1,4 @@
-yum install java-17-amazon-corretto -y
+yum install java-21-amazon-corretto -y
 wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.57/bin/apache-tomcat-10.1.57.tar.gz
 tar -zxvf apache-tomcat-10.1.57.tar.gz
 sed -i '56  a\<role rolename="manager-gui"/>' apache-tomcat-10.1.57/conf/tomcat-users.xml
